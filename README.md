@@ -6,5 +6,7 @@ Source code can't build under Windows. Using pthread and POSIX avalaible under W
 
 P.S. Code::Blocks can store build path separately. If project not build under IDE just add root path to search directories or replace by hand
 
+```c
 #include <pthread.h> to  #include “pthread.h”
 #include <sys/wait.h> to  #include “sys/wait.h”
+```
