@@ -1399,7 +1399,6 @@ unsigned long long calc = 0;
 
   while (1 != 0) {
     (void)sleep(10);
-
     /* Progress calc now based on line count rather than bytes due to unicode issues */
 
     linec = threaddata->finallinecount;

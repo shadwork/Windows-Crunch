@@ -1,6 +1,9 @@
 #ifndef PTHREAD_H_INCLUDED
 #define PTHREAD_H_INCLUDED
 
+#include <process.h>
+#include <windows.h>
+
 typedef unsigned int uint32_t;
 typedef unsigned int size_t;
 typedef int int32_t;
@@ -24,5 +27,7 @@ int pthread_create(pthread_t *thread, pthread_attr_t const * attr,
                    void *(*start_routine)(void *), void * arg);
 
 int pthread_detach(pthread_t  thid);
+
+void pthread_exit(void *retval);
 
 #endif // PTHREAD_H_INCLUDED

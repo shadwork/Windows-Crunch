@@ -1,11 +1,11 @@
 #include "wait.h"
 
 void sleep(int seconds){
-    usleep(seconds*1000);
+    Sleep( seconds*1000L );
 }
 
 pid_t fork(void){
-
+    return 0;
 };
 
 pid_t  wait(int * pid){
