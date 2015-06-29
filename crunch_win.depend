@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1435567219 source:f:\source\codeblock\crunch_win\crunch.c
+	<assert.h>
+	<locale.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<wchar.h>
+	<ctype.h>
+	<errno.h>
+	<signal.h>
+	<math.h>
+	"pthread.h"
+	<unistd.h>
+	<limits.h>
+	"sys/wait.h"
+	<sys/types.h>
+
+1435575153 f:\source\codeblock\crunch_win\pthread.h
+
+1435567572 f:\source\codeblock\crunch_win\sys\wait.h
+	<unistd.h>
+
+1435575184 source:f:\source\codeblock\crunch_win\pthread.c
+	"pthread.h"
+
+1435567534 source:f:\source\codeblock\crunch_win\sys\wait.c
+	"wait.h"
+
