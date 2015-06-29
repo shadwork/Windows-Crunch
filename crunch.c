@@ -250,10 +250,10 @@
 #include <errno.h>
 #include <signal.h>
 #include <math.h>
-#include "pthread.h"
+#include <pthread.h>
 #include <unistd.h>
 #include <limits.h>
-#include "sys/wait.h"
+#include <sys/wait.h>
 #include <sys/types.h>
 
 /* largest output string */
