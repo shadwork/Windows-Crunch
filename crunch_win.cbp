@@ -30,8 +30,13 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="../crunch_win" />
+			<Add option="-Wno-format" />
+			<Add option="-Wno-format-extra-args" />
+			<Add directory="." />
 		</Compiler>
+		<Linker>
+			<Add directory="." />
+		</Linker>
 		<Unit filename="crunch.c">
 			<Option compilerVar="CC" />
 		</Unit>
